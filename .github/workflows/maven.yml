@@ -20,3 +20,5 @@ jobs:
           cache: maven
     - name: Build with Maven
       run: mvn --batch-mode --update-snapshots package
+    - name: Test WebUI
+      run: mvn clean verify

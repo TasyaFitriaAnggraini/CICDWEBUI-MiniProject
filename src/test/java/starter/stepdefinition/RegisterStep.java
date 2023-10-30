@@ -19,15 +19,15 @@ public class RegisterStep {
     }
     @When("I enter valid full name 1")
     public void enterValidFullName() {
-        register.inputFullName("Naura Vieta Hafla");
+        register.inputFullName("Niken Urbaningrum");
     }
     @And("I enter valid email 1")
     public void enterValidEmail() {
-        register.inputEmail("acatest1@mail.com");
+        register.inputEmail("nikentest2@mail.com");
     }
     @And("I enter valid password 1")
     public void enterValidPassword() {
-        register.inputPassword("Naura2021");
+        register.inputPassword("Niken2021");
     }
     @And("I click register button 1")
     public void clickRegisterButton() {
