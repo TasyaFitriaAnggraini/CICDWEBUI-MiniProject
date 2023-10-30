@@ -19,5 +19,5 @@ jobs:
           node-version: 14
       - name: Install Dependencies
         run: npm install  # Gantilah dengan perintah yang sesuai
-      - name: Run UI Tests
-        run: npm test  # Gantilah dengan perintah yang sesuai
+      - name: Test WebUI Automation
+        run: mvn clean verify
