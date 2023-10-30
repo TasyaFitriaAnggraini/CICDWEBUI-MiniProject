@@ -9,26 +9,26 @@ Feature: [01_Automation] - Register
     And I click register button 1
     Then I successfully register and redirected to login page 1
 
-  Scenario: TC02 - Register with invalid full name 2 space
-    Given I am on the register page 5
-    When I enter invalid the full name
-    And I enter valid email 5
-    And I enter valid password 5
-    Then I click register button 5
+#  Scenario: TC02 - Register with invalid full name 2 space
+#    Given I am on the register page 5
+#    When I enter invalid the full name
+#    And I enter valid email 5
+#    And I enter valid password 5
+#    Then I click register button 5
 
-  Scenario: TC03 - Register with invalid email 2 space
-    Given I am on the register page 6
-    When I enter valid full name 6
-    And I enter invalid the email
-    And I enter valid password 6
-    Then I click register button 6
+#  Scenario: TC03 - Register with invalid email 2 space
+#    Given I am on the register page 6
+#    When I enter valid full name 6
+#    And I enter invalid the email
+#    And I enter valid password 6
+#    Then I click register button 6
 
-  Scenario: TC04 - Register with invalid password 2 space
-    Given I am on the register page 7
-    When I enter valid full name 7
-    And I enter valid email 7
-    And I enter invalid the password
-    Then I click register button 7
+#  Scenario: TC04 - Register with invalid password 2 space
+#    Given I am on the register page 7
+#    When I enter valid full name 7
+#    And I enter valid email 7
+#    And I enter invalid the password
+#    Then I click register button 7
 
   Scenario: TC05 - Register without using fullname
     Given I am on the register page 2

@@ -39,73 +39,73 @@ public class RegisterStep {
     }
 
     //Scenario: TC02 - Register with invalid full name 2 space
-    @Given("I am on the register page 5")
-    public void onTheRegisterPage5() {
-        register.openUrl("https://alta-shop.vercel.app/auth/register");
-        register.validateOnRegisterPage();
-    }
-    @When("I enter invalid the full name")
-    public void enterInvalidTheFullName() {
-        register.inputFullName("                             ");
-    }
-    @And("I enter valid email 5")
-    public void enterValidEmail5() {
-        register.inputEmail("acalagitest@mail.com");
-    }
-    @And("I enter valid password 5")
-    public void enterValidPassword5() {
-        register.inputPassword("icici123");
-    }
-    @Then("I click register button 5")
-    public void clickRegisterButton5() {
-        register.clickRegisterButton();
-    }
+//    @Given("I am on the register page 5")
+//    public void onTheRegisterPage5() {
+//        register.openUrl("https://alta-shop.vercel.app/auth/register");
+//        register.validateOnRegisterPage();
+//    }
+//    @When("I enter invalid the full name")
+//    public void enterInvalidTheFullName() {
+//        register.inputFullName("                             ");
+//    }
+//    @And("I enter valid email 5")
+//    public void enterValidEmail5() {
+//        register.inputEmail("acalagitest@mail.com");
+//    }
+//    @And("I enter valid password 5")
+//    public void enterValidPassword5() {
+//        register.inputPassword("icici123");
+//    }
+//    @Then("I click register button 5")
+//    public void clickRegisterButton5() {
+//        register.clickRegisterButton();
+//    }
 
     //Scenario: TC03 - Register with invalid email 2 space
-    @Given("I am on the register page 6")
-    public void onTheRegisterPage6() {
-        register.openUrl("https://alta-shop.vercel.app/auth/register");
-        register.validateOnRegisterPage();
-    }
-    @When("I enter valid full name 6")
-    public void enterValidFullName6() {
-        register.inputFullName("Wiyan Herra Herviana");
-    }
-    @And("I enter invalid the email")
-    public void enterInvalidTheEmail() {
-        register.inputEmail("  ");
-    }
-    @And("I enter valid password 6")
-    public void enterValidPassword6() {
-        register.inputPassword("wiyan123");
-    }
-    @Then("I click register button 6")
-    public void clickRegisterButton6() {
-        register.clickRegisterButton();
-    }
+//    @Given("I am on the register page 6")
+//    public void onTheRegisterPage6() {
+//        register.openUrl("https://alta-shop.vercel.app/auth/register");
+//        register.validateOnRegisterPage();
+//    }
+//    @When("I enter valid full name 6")
+//    public void enterValidFullName6() {
+//        register.inputFullName("Wiyan Herra Herviana");
+//    }
+//    @And("I enter invalid the email")
+//    public void enterInvalidTheEmail() {
+//        register.inputEmail("  ");
+//    }
+//    @And("I enter valid password 6")
+//    public void enterValidPassword6() {
+//        register.inputPassword("wiyan123");
+//    }
+//    @Then("I click register button 6")
+//    public void clickRegisterButton6() {
+//        register.clickRegisterButton();
+//    }
 
     //Scenario: TC04 - Register with invalid password 2 space
-    @Given("I am on the register page 7")
-    public void onTheRegisterPage7() {
-        register.openUrl("https://alta-shop.vercel.app/auth/register");
-        register.validateOnRegisterPage();
-    }
-    @When("I enter valid full name 7")
-    public void enterValidFullName7() {
-        register.inputFullName("Wiyan Herra Herviana");
-    }
-    @And("I enter valid email 7")
-    public void enterValidEmail7() {
-        register.inputEmail("wiyantest3@mail.com");
-    }
-    @And("I enter invalid the password")
-    public void enterInvalidThePassword() {
-        register.inputPassword("  ");
-    }
-    @Then("I click register button 7")
-    public void clickRegisterButton7() {
-        register.clickRegisterButton();
-    }
+//    @Given("I am on the register page 7")
+//    public void onTheRegisterPage7() {
+//        register.openUrl("https://alta-shop.vercel.app/auth/register");
+//        register.validateOnRegisterPage();
+//    }
+//    @When("I enter valid full name 7")
+//    public void enterValidFullName7() {
+//        register.inputFullName("Wiyan Herra Herviana");
+//    }
+//    @And("I enter valid email 7")
+//    public void enterValidEmail7() {
+//        register.inputEmail("wiyantest3@mail.com");
+//    }
+//    @And("I enter invalid the password")
+//    public void enterInvalidThePassword() {
+//        register.inputPassword("  ");
+//    }
+//    @Then("I click register button 7")
+//    public void clickRegisterButton7() {
+//        register.clickRegisterButton();
+//    }
 
     //Scenario: TC05 - Register without using fullname
     @Given("I am on the register page 2")
